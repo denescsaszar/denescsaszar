@@ -19,5 +19,5 @@ Throughout this bootcamp, I will be working on several projects to apply the con
 
 If you have any questions, suggestions, or just want to say hello, feel free to reach out to me on [LinkedIn](. I look forward to connecting with you all and sharing my progress!
 
-Happy coding! <3
+```Happy coding! <3```
 
