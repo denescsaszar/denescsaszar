@@ -4,9 +4,7 @@
 
 _Image source: Night Programming GIF by Metin Seven_
 
-I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer. The technologies and tools I will be learning about:
-
-
+I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer. 
 
 ## About Me
 
@@ -14,7 +12,9 @@ I am an International Account Manager who has always been passionate about techn
 
 ## Goals
 
-My primary goal for this bootcamp is to gain a strong foundation in the fundamentals of web development and software engineering. I hope to develop a solid understanding of programming languages, frameworks, and tools that will enable me to create functional, user-friendly, and efficient web applications. 
+My primary goal for this bootcamp is to gain a strong foundation in the fundamentals of web development and software engineering. I hope to develop a solid understanding of programming languages, frameworks, and tools that will enable me to create functional, user-friendly, and efficient web applications. The technologies and tools I will be learning about:
+
+<img src="https://github.com/denescsaszar/denescsaszar/blob/main/Unofficial_JavaScript_logo_2.svg.png" alt="js" align="left" width ="50" length="50"> <br> <br>
 
 ## Contact Me
 
