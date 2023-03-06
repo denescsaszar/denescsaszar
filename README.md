@@ -1,5 +1,7 @@
 # Welcome to my `Spiced Academy Bootcamp` Journey
 
+
+
 I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer.
 
 ## About Me
@@ -23,7 +25,7 @@ If you have any questions, suggestions, or just want to say hello, feel free to 
 
 ---
 
-<img src="[[YOUR_VERCEL_PROJECT_DOMAIN](https://denescsaszar-w92e.vercel.app/)]/[METHOD]?username=[denescsaszar]" />
 
-?username=[YOUR_LINKEDIN_USERNAME]
+
+
 
