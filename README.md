@@ -2,6 +2,8 @@
 
 ![](https://github.com/denescsaszar/denescsaszar/blob/main/giphy.gif)
 
+_Image source: Night Programming GIF by Metin Seven_
+
 I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer.
 
 ## About Me
