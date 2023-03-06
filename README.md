@@ -28,6 +28,3 @@ If you have any questions, suggestions, or just want to say hello, feel free to 
 ---
 
 
-
-
-
