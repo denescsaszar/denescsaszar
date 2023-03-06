@@ -1,6 +1,6 @@
 # Welcome to my `Spiced Academy Bootcamp` Journey
 
-
+![](https://github.com/denescsaszar/denescsaszar/blob/main/giphy.gif)
 
 I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer.
 
