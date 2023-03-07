@@ -15,7 +15,8 @@ I am an International Account Manager who has always been passionate about techn
 My primary goal for this bootcamp is to gain a strong foundation in the fundamentals of web development and software engineering. I hope to develop a solid understanding of programming languages, frameworks, and tools that will enable me to create functional, user-friendly, and efficient web applications. The technologies and tools I will be learning about:
 
 <img src="https://github.com/denescsaszar/denescsaszar/blob/main/Unofficial_JavaScript_logo_2.svg.png" alt="js" align="left" width ="50" length="50"> 
-<img src="https://github.com/denescsaszar/denescsaszar/blob/main/HTML5_logo_and_wordmark.svg.png" alt="js" align="left" width ="50" length="50"> 
+<img src="https://github.com/denescsaszar/denescsaszar/blob/main/HTML5_logo_and_wordmark.svg.png" alt="html" align="left" width ="50" length="50"> 
+<img src="https://github.com/denescsaszar/denescsaszar/blob/main/CSS3_logo_and_wordmark.svg.png" alt="css" align="left" width ="50" length="50"> 
 
 <br> <br>
 
