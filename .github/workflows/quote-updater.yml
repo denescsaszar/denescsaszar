@@ -2,13 +2,15 @@ name: Update Zen Quote
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Every 5 minutes
+    - cron: '*/5 * * * *' # This runs the action every 5 minutes
+  workflow_dispatch: # This allows manual triggering of the action
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up Node.js
@@ -16,22 +18,42 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install jq
-        run: sudo apt-get install jq
-
-      - name: Fetch and update quote
+      - name: Install dependencies
         run: |
-          # Fetch a quote from Zen Quotes API
-          QUOTE=$(curl -s https://zenquotes.io/api/random | jq -r '.[0].q + " — " + .[0].a')
+          npm install axios # Install axios to make API requests
 
-          # Add timestamp and write to daily_snippets.txt
-          echo "$(date): $QUOTE" >> daily_snippets.txt
-
-      - name: Commit and push updates
+      - name: Get a new quote from Zen API
         run: |
-          git config --global user.email "youremail@example.com"
-          git config --global user.name "Your Name"
+          node -e "
+          const axios = require('axios');
+          const fs = require('fs');
+          const filePath = 'daily_snippets.txt';
+
+          async function fetchQuote() {
+            try {
+              const response = await axios.get('https://zenquotes.io/api/random');
+              const quote = response.data[0].q;
+              const author = response.data[0].a;
+              const timestamp = new Date().toISOString();
+
+              const newQuote = \`\${timestamp}: '\${quote}' - \${author}\n\`;
+
+              fs.appendFileSync(filePath, newQuote);
+              console.log('Quote added successfully');
+            } catch (error) {
+              console.error('Error fetching quote:', error);
+            }
+          }
+
+          fetchQuote();
+          "
+
+      - name: Commit and push quote
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add daily_snippets.txt
           git commit -m "Update quote: $(date)"
-          git push origin main
-
+          git push https://${{ secrets.GH_TOKEN }}@github.com/denescsaszar/denescsaszar.git
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
