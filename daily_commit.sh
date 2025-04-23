@@ -11,7 +11,7 @@ echo "$(date +'%Y-%m-%d'): '$QUOTE'" >> $SNIPPET_FILE
 
 # Add and commit changes
 git add $SNIPPET_FILE
-git commit -m "'✨ Daily commit: $(date +'%Y-%m-%d') - $QUOTE'"
+git commit -m "✨ Daily commit: $(date +'%Y-%m-%d') - \"$QUOTE\""
 
 # Push to GitHub
 git push origin main
