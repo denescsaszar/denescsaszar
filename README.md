@@ -1,31 +1,29 @@
-# Welcome to my `Spiced Academy Bootcamp` Journey
+# Welcome to my profile
 
 ![](https://github.com/denescsaszar/denescsaszar/blob/main/giphy.gif)
 
 _Image source: Night Programming GIF by Metin Seven_
 
-I am excited to embark on this new adventure and share my progress with you all. This GitHub repository will serve as a place to document my journey, showcase my projects, and track my growth as a developer. 
+### Hi, I'm Denes 👋
 
-## About Me
+I'm a creative product and account management professional with a passion for tech, e-commerce, and meaningful user experiences.
 
-I am an International Account Manager who has always been passionate about technology and its potential to make a positive impact on the world. I am thrilled to have the opportunity to learn from experienced mentors and collaborate with fellow learners in this bootcamp. If you want to learn more about my professional background, please scroll down.
+🧠 Currently:
+- Exploring Product Management and Frontend Development (React & JavaScript)
+- Open to junior Product Owner / PM roles
+- Learning and building daily
 
-## Goals
+🔧 Tools & Skills:
+- JavaScript, React, Git, APIs
+- SCRUM (PSM I), Project Management (IPMA D)
+- Agile Mindset | E-Commerce | Branding
 
-My primary goal for this bootcamp is to gain a strong foundation in the fundamentals of web development and software engineering. I hope to develop a solid understanding of programming languages, frameworks, and tools that will enable me to create functional, user-friendly, and efficient web applications. The technologies and tools I will be learning about:
+📫 Let's connect:
+- 💼 [LinkedIn](https://www.linkedin.com/in/denescsaszar/)
+- 🌍 [My Portfolio Site](# coming soon)
 
-<img src="https://github.com/denescsaszar/denescsaszar/blob/main/Unofficial_JavaScript_logo_2.svg.png" alt="js" align="left" width ="50" hight="50"> 
-<img src="https://github.com/denescsaszar/denescsaszar/blob/main/HTML5_logo_and_wordmark.svg.png" alt="html" align="left" width ="50" hight="50"> 
-<img src="https://github.com/denescsaszar/denescsaszar/blob/main/CSS3_logo_and_wordmark.svg.png" alt="css" align="left" width ="50" hight="50"> 
-
-<br> <br>
-
-## Contact Me
-
-If you have any questions, suggestions, or just want to say hello, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/denescsaszar/). I look forward to connecting with you all and sharing my progress!
+🚀 Fun fact: I speak 4 languages
 
 `Happy coding! <3`
 
 ---
-
-
