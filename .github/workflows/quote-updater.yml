@@ -1,1 +1,37 @@
+name: Update Zen Quote
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour on the hour
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Fetch and update quote
+        run: |
+          # Fetch a quote from Zen Quotes API
+          QUOTE=$(curl -s https://zenquotes.io/api/random | jq -r '.[0].q + " — " + .[0].a')
+
+          # Add timestamp and write to daily_snippets.txt
+          echo "$(date): $QUOTE" >> daily_snippets.txt
+
+      - name: Commit and push updates
+        run: |
+          git config --global user.email "youremail@example.com"
+          git config --global user.name "Your Name"
+          git add daily_snippets.txt
+          git commit -m "Update quote: $(date)"
+          git push origin main
 
