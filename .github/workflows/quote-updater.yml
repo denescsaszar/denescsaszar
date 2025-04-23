@@ -2,7 +2,7 @@ name: Update Zen Quote
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour on the hour
+    - cron: '*/5 * * * *'  # Every 5 minutes
 
 jobs:
   update-quote:
