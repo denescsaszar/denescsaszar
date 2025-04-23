@@ -42,6 +42,7 @@ jobs:
               console.log('Quote added successfully');
             } catch (error) {
               console.error('Error fetching quote:', error);
+              process.exit(1);
             }
           }
 
@@ -52,8 +53,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
           git add daily_snippets.txt
-          git commit -m "Update quote: $(date)"
-          git push https://${{ secrets.GH_TOKEN }}@github.com/denescsaszar/denescsaszar.git
+          git commit -m "Update quote: $(date)" || echo "No changes to commit"
+          git push origin main
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
