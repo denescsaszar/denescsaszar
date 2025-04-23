@@ -10,7 +10,7 @@ I'm a creative product and account management professional with a passion for te
 
 🧠 Currently:
 - Exploring Product Management and Frontend Development (React & JavaScript)
-- Open to junior Product Owner / PM roles
+- I'm currently exploring Junior Product Owner / PM roles
 - Learning and building daily
 
 🔧 Tools & Skills:
@@ -20,7 +20,6 @@ I'm a creative product and account management professional with a passion for te
 
 📫 Let's connect:
 - 💼 [LinkedIn](https://www.linkedin.com/in/denescsaszar/)
-- 🌍 [My Portfolio Site](# coming soon)
 
 🚀 Fun fact: I speak 4 languages
 
